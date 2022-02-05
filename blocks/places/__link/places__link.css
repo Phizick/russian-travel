@@ -1,0 +1,25 @@
+.places__link {
+    margin: 12px 0 0 0;
+    line-height: 122%;
+    text-decoration-line: underline;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    transition: opacity 0.5s linear;
+}
+.places__link {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+ 
+.places__link:hover {
+    opacity: 0.5;
+}
+@media screen and (max-width: 650px) {     
+      
+    .places__link {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column: 1;
+    }
+}

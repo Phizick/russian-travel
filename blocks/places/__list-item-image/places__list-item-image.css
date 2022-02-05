@@ -1,0 +1,19 @@
+.places__list-item-image {
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+@media screen and (max-width: 650px) {
+      
+      
+    .places__list-item-image {
+    grid-row-start: 5;
+    grid-row-end: 8;
+    grid-column: 1;
+    width: 100%;
+    } 
+}
+@media screen and (max-width: 770px) {
+    .places__list-item-image {
+        max-width: 340px;
+    }
+}

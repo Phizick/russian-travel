@@ -1,0 +1,11 @@
+.footer__nav {
+    margin: 92px 48px 24px 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1184px;
+}
+@media screen and (max-width: 1024px) {
+    .footer__nav {
+        margin: 92px 48px 0 48px;
+    }
+}

@@ -1,0 +1,6 @@
+.photo {
+    display: flex;
+    max-width: 1184px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

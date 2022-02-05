@@ -1,0 +1,18 @@
+.cover__conteiner-content {
+    min-height: 740px;
+}
+.cover__conteiner-content::before {
+    content: "";
+    display: inline;
+    position: absolute;
+    max-width: 1184px;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);    
+}
+
+.cover__conteiner-content:hover::before{
+    background-color: rgba(0, 0, 0, 0.6);
+    }

@@ -1,0 +1,9 @@
+.cover__conteiner {
+    background-image: url(/images/cover22.jpg);
+    background-size: cover;
+    z-index: 0;
+    max-width: 1184px;
+    min-height: 740px;
+    top: 0;
+    left:0;
+}

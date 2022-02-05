@@ -1,0 +1,17 @@
+.footer__nav-item {
+    list-style-type: none;
+    display: inline;
+    padding-right: 18px;
+}
+
+.footer__nav-item:last-child {
+    float:right;
+    padding-right: 0;
+}
+@media screen and (max-width: 1024px) {
+      
+
+    .footer__nav-item:last-child {
+        padding-right: 48px;
+    }
+}

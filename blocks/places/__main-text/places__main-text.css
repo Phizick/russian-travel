@@ -1,0 +1,32 @@
+.places__main-text {
+    grid-column: 2 / 2;
+    grid-row: 3;
+    margin: 0 0 26px 0;
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: 400;
+    font-style: normal;
+}
+.places__main-text:last-child {
+    grid-column: 2 / 2;
+    grid-row: 4;
+    max-height: fit-content;
+}
+@media screen and (max-width: 650px) {
+    .places__main-text {
+        grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column: 1;
+       
+    }
+    .places__main-text:last-child {
+        grid-column: 1;
+        grid-row-start: 9;
+    }
+}
+@media screen and (max-width: 770px) {
+    .places__main-text {
+   font-size: 16px;
+
+}
+}

@@ -1,0 +1,22 @@
+.places__nav {
+    align-self: end;
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+}
+
+.places__nav {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+@media screen and (max-width: 650px) {
+     
+      
+    .places__nav {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        grid-column: 1;
+    }}
