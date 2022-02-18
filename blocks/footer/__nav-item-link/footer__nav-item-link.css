@@ -1,0 +1,9 @@
+.footer__nav-item-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: opacity 0.5s linear;
+}
+
+.footer__nav-item-link:hover {
+    opacity: 0.8;
+}

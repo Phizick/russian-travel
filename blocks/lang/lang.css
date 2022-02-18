@@ -1,0 +1,17 @@
+.header__lang {
+    margin-right: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: opacity 0.5s linear;
+}
+
+.header__lang:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 322px) {
+    .header__lang {
+        font-size: 18px;
+    }
+}

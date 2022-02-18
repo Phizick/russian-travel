@@ -1,0 +1,17 @@
+.header__container {
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .header__container {
+        margin: 28px 24px 0 24px;
+    }
+}
+@media screen and (max-width: 322px) {
+    .header__container {
+        padding: 16px 16px 0 16px;
+        margin: 0 0 48px 0;
+    }
+}
