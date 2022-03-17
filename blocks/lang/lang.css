@@ -22,4 +22,5 @@
 
 .header__lang-container {
     margin-top: 18px;
+    list-style-type: none;
 }
