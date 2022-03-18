@@ -6,10 +6,16 @@
   margin: 0 auto;
   color: white;
   font-family: Inter, Arial, sans-serif;
+  
 }
 
 @media screen and (max-width: 1024px) {
   .page {
     padding: 0;
   }
+}
+
+.page__content {
+  display: grid;
+  grid-gap: 92px;
 }

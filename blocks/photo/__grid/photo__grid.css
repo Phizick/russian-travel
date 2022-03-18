@@ -1,7 +1,11 @@
 .photo__grid {
     box-sizing: border-box;
     display: grid;
+<<<<<<< Updated upstream
     margin: 92px 0 92px 0;
+=======
+    margin: 0 auto;
+>>>>>>> Stashed changes
     padding: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;

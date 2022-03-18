@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .places__list-item {
     list-style-type: none;
     padding: 0;
@@ -32,5 +33,14 @@
     .places__list-item:last-child {
         margin: 0;
     }
+=======
+.pvlaces__item {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;    
+    max-width: 984px;
+    margin-bottom: 80px;
+>>>>>>> Stashed changes
 }
 

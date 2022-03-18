@@ -1,4 +1,5 @@
 .places__title {
+<<<<<<< Updated upstream
     grid-row-start: 1;
     grid-row-end: 3;
     font-size: 72px;
@@ -12,16 +13,15 @@
         grid-row-start: 1;
         grid-row-end: 2;
     }
+=======
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 102%;
+    padding: 0;
+    margin: 0;
+    width: 460px;
+    letter-spacing: 2px;
+>>>>>>> Stashed changes
 }
 
-@media screen and (max-width: 770px) {
-    .places__title {
-        font-size: 42px;
-    }
-}
-@media screen and (max-width: 322px) {
-    .places__title {
-        font-size: 32px;
-        margin: 0 16px 16px 16px;
-    }
-}
+
