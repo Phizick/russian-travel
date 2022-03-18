@@ -1,9 +1,13 @@
 .header__lang {
-    margin-right: 25px;
+    margin-right: 14px;
     color: #ffffff;
     text-decoration: none;
     font-size: 24px;
     transition: opacity 0.5s linear;
+}
+
+.header__lang:last-child {
+    margin-right: 0;
 }
 
 .header__lang:hover {
@@ -14,4 +18,9 @@
     .header__lang {
         font-size: 18px;
     }
+}
+
+.header__lang-container {
+    margin-top: 18px;
+    list-style-type: none;
 }
