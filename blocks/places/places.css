@@ -1,18 +1,35 @@
 .places {
     max-width: 984px;
     margin: 0 auto;
+    display: grid;
+    grid-gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
-    .places {
-        margin: 92px 48px 0 48px;
-    }
+
+.places__head-container {
+    display: flex;
+    column-gap: 40px;   
+   
+    
 }
 
-@media screen and (max-width: 770px) {
-    .places {
-        padding: 0;
-        margin: 0;
-    }
+.places__main-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-top: 50px;
 }
+.places__nav-item {
+    flex-direction: column-reverse;
+    display: flex;
+   
+    
+
+
+    
+}
+.places__text-container{
+    flex-direction: column;
+}
+
 

@@ -1,27 +1,11 @@
 .places__title {
-    grid-row-start: 1;
-    grid-row-end: 3;
     font-size: 72px;
     font-weight: 900;
-    line-height: 106%;
-    margin: 0 0 48px 0;
-}
-@media screen and (max-width: 650px) {
-    .places__title {
-        grid-column: 1;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
+    line-height: 102%;
+    padding: 0;
+    margin: 0;
+    width: 460px;
+    letter-spacing: 2px;
 }
 
-@media screen and (max-width: 770px) {
-    .places__title {
-        font-size: 42px;
-    }
-}
-@media screen and (max-width: 322px) {
-    .places__title {
-        font-size: 32px;
-        margin: 0 16px 16px 16px;
-    }
-}
+
