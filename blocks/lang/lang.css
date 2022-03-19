@@ -9,6 +9,9 @@
 .header__lang:hover {
     opacity: 0.8;
 }
+.header__lang:last-child {
+    margin-right: 0;
+}
 
 @media screen and (max-width: 322px) {
     .header__lang {

@@ -1,8 +1,9 @@
 .footer__container {
-    margin: 92px 0 24px 0;
+    margin: 0px 0 24px 0;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    
 }
 
 @media screen and (max-width: 1025px) {

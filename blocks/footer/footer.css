@@ -1,3 +1,7 @@
 .footer {
     max-width: 1184px;
 }
+.footer__copyright {
+    display: flex;
+    flex-direction: column-reverse;
+}
