@@ -1,16 +1,27 @@
-.header__lang {
-    margin-right: 25px;
+.header__lang {    
     color: #ffffff;
     text-decoration: none;
     font-size: 24px;
     transition: opacity 0.5s linear;
+    margin: 0;
 }
 
 .header__lang:hover {
     opacity: 0.8;
 }
-.header__lang:last-child {
-    margin-right: 0;
+
+.header__lang-list:first-child {
+margin-right: 18px;
+}
+
+.header__lang-list {
+    list-style-type: none;
+}
+
+.header__lang-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
 }
 
 @media screen and (max-width: 322px) {

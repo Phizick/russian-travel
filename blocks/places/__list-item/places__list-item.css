@@ -1,9 +1,9 @@
-.pvlaces__item {
+.pklaces__item {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     justify-content: space-between;    
     max-width: 984px;
-    margin-bottom: 80px;
+   
 }
 
