@@ -8,9 +8,7 @@
 
 .places__head-container {
     display: flex;
-    column-gap: 40px;   
-   
-    
+    column-gap: 40px;       
 }
 
 .places__main-container {
@@ -22,10 +20,6 @@
 .places__nav-item {
     flex-direction: column-reverse;
     display: flex;
-   
-    
-
-
     
 }
 .places__text-container{

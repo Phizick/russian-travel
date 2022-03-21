@@ -10,19 +10,9 @@
     opacity: 0.8;
 }
 
-.header__lang-list:first-child {
-margin-right: 18px;
-}
 
-.header__lang-list {
-    list-style-type: none;
-}
 
-.header__lang-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-}
+
 
 @media screen and (max-width: 322px) {
     .header__lang {

@@ -1,0 +1,6 @@
+.header__lang-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 18px;
+}
