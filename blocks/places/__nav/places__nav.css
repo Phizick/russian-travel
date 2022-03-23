@@ -22,9 +22,9 @@
         grid-column: 1;
     }
 }
-
-@media screen and (max-width: 322px) {
-    .places__nav {
-        margin: 0 0 0 16px;
-    }
+@media screen and (max-width: 350px) {
+.places__nav {
+    max-width: fit-content;
+    margin-left: 16px;
+}
 }

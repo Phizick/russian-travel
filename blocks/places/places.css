@@ -5,18 +5,62 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        margin: 92px 48px 0 48px;
+     margin: 0 48px 0 48px;     
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
     .places {
-        padding: 0;
-        margin: 0;
+     margin: 0 24px 0 24px;
+     row-gap: 73px;
     }
 }
 
-.place_item {
+@media screen and (max-width: 650px) {
+    .places {
+     margin: 0;
+     row-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+     width: 320px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+.places__list-item-image {
+    max-height: 440px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 1010px) {
+    .places__list-item-image {
+        max-height: 340px;
+        width: 100%;    
+    }
+    }
+
+    @media screen and (max-width: 700px) {
+        .places__list-item-image {
+            max-height: 100%;
+            max-width: 100%;    
+        }
+        }
+
+        @media screen and (max-width: 321px) {
+            .places__list-item-image {
+                max-height: 100%;
+                max-width: 320px;    
+            }
+            }
+        
+    
+
+
+.places__head-container {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -31,13 +75,50 @@
     
 }
 
-.div__2 {
+@media screen and (max-width: 800px) {
+    .places__head-container {
+column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .places__head-container {
+        flex-direction: column;
+
+    }
+}
+
+.places__main-container {
     display: flex;
     flex-direction: row;
-    column-gap: 32px;
+    column-gap: 40px;
+    margin-top: 50px;
 }
-.nav_l {
-    flex-direction: column;
+
+@media screen and (max-width: 1030px) {
+    .places__main-container {
+column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .places__main-container {
+column-gap: 28px;
+margin-top: 44px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .places__main-container {
+        flex-direction: column;
+column-gap: 28px;
+margin-top: 44px;
+    }
+}
+
+
+.places__nav-item {
+    flex-direction: column-reverse;
     display: flex;
     justify-content: space-between;
     

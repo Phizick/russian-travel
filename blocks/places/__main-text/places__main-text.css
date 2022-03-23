@@ -8,31 +8,28 @@
     font-style: normal;
 }
 .places__main-text:last-child {
-    grid-column: 2 / 2;
-    grid-row: 4;
-    max-height: fit-content;
+    margin: 0;
 }
-@media screen and (max-width: 650px) {
-    .places__main-text {
-        grid-row-start: 8;
-        grid-row-end: 9;
-        grid-column: 1;
-    }
-    .places__main-text:last-child {
-        grid-column: 1;
-        grid-row-start: 9;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .places__main-text {
+
+@media screen and (max-width: 1030px) {
+
+    .places__main-text{
         font-size: 16px;
+        }
     }
-}
-@media screen and (max-width: 322px) {
-    .places__main-text {
-        margin: 32px 16px 0 16px;
-    }
-    .places__main-text:last-child {
-        margin: 25px 16px 0 16px;
-    }
-}
+
+    @media screen and (max-width: 800px) {
+
+        .places__main-text{
+            margin-bottom: 25px;
+            line-height: 164%;
+            }
+        }
+
+        @media screen and (max-width: 321px) {
+
+            .places__main-text{
+              max-width: 320px;
+              margin-right:  0;
+                }
+            }

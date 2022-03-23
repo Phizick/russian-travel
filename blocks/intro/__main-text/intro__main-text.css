@@ -12,13 +12,26 @@
     }
 }
 
-@media screen and (max-width: 770px) {  
+@media screen and (max-width: 800px) {  
     .intro__main-text {
-        margin: 0 24px 33px 24px;
+        margin: 0 0 33px 24px;
+        max-width: 720px;
+        line-height: 161%;
     }
 }
+
+@media screen and (max-width: 752px) {  
+    .intro__main-text {
+        margin: 0 16px 33px 16px;
+        max-width: 520px;
+        line-height: 161%;
+    }
+}
+
 @media screen and (max-width: 322px) {  
     .intro__main-text {
-        margin: 0 16px 34px 16px;
+        margin: 0 16px 31px 16px;
+        padding-top: 0;
+        line-height: 163%;
     }
 }

@@ -11,14 +11,16 @@
         margin: 92px 0 40px 48px;;
     }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
     .intro__title {
-        margin: 88px 24px 40px 24px;
+        margin: 4px 24px 40px 24px;
     }
 }
 @media screen and (max-width: 322px) {
     .intro__title {
-        margin: 64px 16px 40px 16px;
+        margin: 0 16px 40px 16px;
         font-size: 32px;
+        white-space: pre-line;
+        line-height: 109%;
     }
 }

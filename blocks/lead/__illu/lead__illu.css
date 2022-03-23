@@ -6,13 +6,22 @@
         margin: 0 48px 0 48px;
     }
 }
-@media screen and (max-width: 770px) {
-    .lead__illu {
-        margin: 24px 0 0 0;
-    }
-}
-@media screen and (max-width: 322px) {
+@media screen and (max-width: 800px) {
     .lead__illu {
         margin: 0;
+         }
+}
+@media screen and (max-width: 765px) {
+    .lead__illu {
+        margin: 0 auto;
+        max-width: 100%;
     }
 }
+@media screen and (max-width: 335px) {
+    .lead__illu {
+        margin: 0;
+        max-width: 320px;
+   
+    }
+}
+

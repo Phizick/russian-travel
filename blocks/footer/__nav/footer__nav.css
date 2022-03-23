@@ -10,6 +10,8 @@
 @media screen and (max-width: 718px) {
     .footer__nav {
         flex-direction: column;
+        align-content: flex-start;
+        
     }
 }
 
