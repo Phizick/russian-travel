@@ -1,6 +1,8 @@
 .places {
     max-width: 984px;
     margin: 0 auto;
+    display: grid;
+    grid-gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -63,17 +65,13 @@
 .places__head-container {
     display: flex;
     box-sizing: border-box;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+column-gap: 40px;
     
     max-width: 984px;
 }
 
-.div__1 {
-    display: flex;
-    column-gap: 32px;
-    
-}
+
 
 @media screen and (max-width: 800px) {
     .places__head-container {
@@ -120,7 +118,7 @@ margin-top: 44px;
 .places__nav-item {
     flex-direction: column-reverse;
     display: flex;
-    justify-content: space-between;
+
     
 }
 .text_content{

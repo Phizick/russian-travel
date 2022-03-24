@@ -6,22 +6,14 @@
     line-height: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding-top: 55px;
+    padding: 0;
     margin: 0;
-    align-items: center;
-    grid-column: 2/ 2;
-    grid-row: 1 / 1;
+
+
   
 }
 
 
-@media screen and (max-width: 650px) {
-    .places__nav {
-        grid-row-start: 3;
-        grid-row-end: 4;
-        grid-column: 1;
-    }
-}
 @media screen and (max-width: 350px) {
 .places__nav {
     max-width: fit-content;
