@@ -4,10 +4,10 @@
     padding: 0;
     margin-top: 18px;
 }
-
-@media screen and (max-width: 450px) {
-    .header__lang-container {
-        margin-top: 14px;
-    }
-    
+.header__lang-list {
+    list-style-type: none;
 }
+
+.header__lang-list:first-child {
+    margin-right: 18px;
+    }
