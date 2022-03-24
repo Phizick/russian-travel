@@ -1,11 +1,12 @@
 .photo__grid {
     box-sizing: border-box;
     display: grid;
-    margin: 92px 0 84px 0;
+    margin: 0 auto;
     padding: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 13px;
+    row-gap: 12px;
+    column-gap: 16px;
     grid-auto-flow: row dense;
     grid-auto-rows: minmax(216px, auto);
 }

@@ -31,34 +31,7 @@
     }
 }
 
-@media screen and (max-width: 1030px) {
-.places__list-item-image {
-    max-height: 440px;
-    width: 100%;
-}
-}
 
-@media screen and (max-width: 1010px) {
-    .places__list-item-image {
-        max-height: 340px;
-        width: 100%;    
-    }
-    }
-
-    @media screen and (max-width: 700px) {
-        .places__list-item-image {
-            max-height: 100%;
-            max-width: 100%;    
-        }
-        }
-
-        @media screen and (max-width: 321px) {
-            .places__list-item-image {
-                max-height: 100%;
-                max-width: 320px;    
-            }
-            }
-        
     
 
 
@@ -90,7 +63,7 @@ column-gap: 28px;
     display: flex;
     flex-direction: row;
     column-gap: 40px;
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 @media screen and (max-width: 1030px) {
