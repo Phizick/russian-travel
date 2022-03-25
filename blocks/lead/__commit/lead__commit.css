@@ -8,9 +8,9 @@
     color: #ffffff;
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1030px) {
     .lead__commit {
-        margin: 8px 0 0 48px;
+        margin: 4px 0 0 48px;
       }
   }
   @media screen and (max-width: 800px) {

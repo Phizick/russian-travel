@@ -14,7 +14,9 @@
     .photo__grid {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        margin: 92px 48px 0 48px;
+        column-gap: 14px;
+        row-gap: 10px;
+        
     }
 }
 @media screen and (max-width: 980px) {

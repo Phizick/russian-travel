@@ -9,6 +9,21 @@
     white-space: pre-line;
 
 }
+@media screen and (max-width: 1030px) {
+    .places__title {   
+    line-height: 100%;
+    min-width: 440px;
+    letter-spacing: 1.3px;
+}
+}
+
+@media screen and (max-width: 1018px) {
+    .places__title {
+    width: 380px;
+    font-size: 60px;
+    line-height: 100%;
+}
+}
 
 @media screen and (max-width: 770px) {
     .places__title {

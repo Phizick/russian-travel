@@ -11,12 +11,6 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1030px) {
-
-    .places__main-text{
-        font-size: 16px;
-        }
-    }
 
     @media screen and (max-width: 800px) {
 

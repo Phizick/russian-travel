@@ -6,8 +6,8 @@
 }
 @media screen and (max-width: 1120px) {
     .photo__grid-item {
-        min-width: 300px;
-        height: 100%;
+        max-width: 300px;
+        min-height: 225px;
     }
 }
 @media screen and (max-width: 980px) {
