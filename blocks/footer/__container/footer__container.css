@@ -11,6 +11,12 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .footer__container {
+        margin: 0 24px 24px 24px;
+    }
+}
+
 @media screen and (max-width: 718px) {
     .footer__container {
         margin: 88px 24px 24px 24px;

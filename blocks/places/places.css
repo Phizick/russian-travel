@@ -14,7 +14,7 @@
 @media screen and (max-width: 800px) {
     .places {
      margin: 0 24px 0 24px;
-     row-gap: 73px;
+     row-gap: 66px;
     }
 }
 
@@ -81,7 +81,7 @@ margin-top: 53px;
 @media screen and (max-width: 800px) {
     .places__main-container {
 column-gap: 28px;
-margin-top: 44px;
+margin-top: 52px;
     }
 }
 

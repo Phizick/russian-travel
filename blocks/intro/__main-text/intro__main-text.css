@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 800px) {  
     .intro__main-text {
-        margin: 0 0 33px 24px;
+        margin: 0 0 35px 24px;
         max-width: 720px;
         line-height: 161%;
     }
