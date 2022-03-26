@@ -3,4 +3,4 @@
 
 Используемые технологии: HTML 5.0 / CSS 3
 
-GitPages: https://phizick.github.io/
+GitPages: https://phizick.github.io/russian-travel/
