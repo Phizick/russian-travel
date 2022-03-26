@@ -3,6 +3,7 @@
     flex-direction: row;
     padding: 0;
     margin-top: 18px;
+    list-style-type: none;
 }
 .header__lang-list {
     list-style-type: none;
@@ -11,3 +12,11 @@
 .header__lang-list:first-child {
     margin-right: 18px;
     }
+
+
+@media screen and (max-width: 322px) {
+    .header__lang-container {
+        margin-top: 12px;
+    }
+    
+}

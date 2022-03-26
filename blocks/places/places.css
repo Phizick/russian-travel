@@ -21,18 +21,17 @@
 @media screen and (max-width: 650px) {
     .places {
      margin: 0;
-     row-gap: 50px;
+     row-gap: 48px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
-     width: 320px;
+     max-width: 320px;
+     
     }
 }
-
-
-    
+   
 
 
 .places__head-container {
@@ -60,6 +59,7 @@ column-gap: 28px;
 @media screen and (max-width: 700px) {
     .places__head-container {
         flex-direction: column;
+        row-gap: 32px;
 
     }
 }
@@ -89,7 +89,7 @@ margin-top: 52px;
     .places__main-container {
         flex-direction: column;
 column-gap: 28px;
-margin-top: 44px;
+margin-top: 32px;
     }
 }
 

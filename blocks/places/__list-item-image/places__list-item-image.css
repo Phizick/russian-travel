@@ -29,10 +29,11 @@
             }
             }
     
-            @media screen and (max-width: 321px) {
+            @media screen and (max-width: 322px) {
                 .places__list-item-image {
                     max-height: 100%;
-                    max-width: 320px;    
+                    max-width: 320px;
+                    margin-bottom: 32px;  
                 }
                 }
             
