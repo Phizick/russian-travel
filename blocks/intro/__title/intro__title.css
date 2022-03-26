@@ -6,16 +6,19 @@
     max-width: 43.125rem;
     letter-spacing: 0.6px;
 }
+
 @media screen and (max-width: 1024px) {
     .intro__title {
         margin: 3px 0 40px 48px;;
     }
 }
+
 @media screen and (max-width: 800px) {
     .intro__title {
         margin: 4px 24px 40px 24px;
     }
 }
+
 @media screen and (max-width: 322px) {
     .intro__title {
         margin: 0 16px 40px 16px;

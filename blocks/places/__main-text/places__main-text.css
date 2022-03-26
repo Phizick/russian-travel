@@ -1,6 +1,4 @@
 .places__main-text {
-    grid-column: 2 / 2;
-    grid-row: 3;
     margin: 0 0 26px 0;
     font-size: 18px;
     line-height: 163%;
@@ -11,23 +9,20 @@
     margin: 0;
 }
 
+@media screen and (max-width: 800px) {
+    .places__main-text {
+        margin-bottom: 25px;
+        line-height: 164%;
+        font-size: 16px;
+    }
+}
 
-    @media screen and (max-width: 800px) {
+@media screen and (max-width: 322px) {
+    .places__main-text {
+        margin: 0 16px 25px 16px;
+    }
 
-        .places__main-text{
-            margin-bottom: 25px;
-            line-height: 164%;
-            font-size: 16px;
-            }
-        }
-
-        @media screen and (max-width: 322px) {
-
-            .places__main-text{
-            margin: 0 16px 25px 16px;
-            
-                }
-            }
-            .places__main-text:last-child {
-                margin: 0 16px 0 16px;
-            }
+    .places__main-text:last-child {
+        margin: 0 16px 0 16px;
+    }
+}

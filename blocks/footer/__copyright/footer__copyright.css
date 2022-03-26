@@ -1,0 +1,6 @@
+.footer__copyright {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 7px;
+    font-size: 14px;
+}

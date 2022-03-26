@@ -1,5 +1,4 @@
 .places__nav {
-    
     color: #aaaaaa;
     font-weight: 400;
     font-size: 12px;
@@ -8,15 +7,11 @@
     text-transform: uppercase;
     padding: 0;
     margin: 0;
-
-
-  
 }
-
 
 @media screen and (max-width: 350px) {
-.places__nav {
-    max-width: fit-content;
-    margin-left: 16px;
-}
+    .places__nav {
+        max-width: fit-content;
+        margin-left: 16px;
+    }
 }

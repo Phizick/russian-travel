@@ -3,10 +3,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    max-width: 43.125rem;
-    
-    
+    max-width: 43.125rem;    
 }
+
 @media screen and (max-width: 1024px) {
     .intro__main-text {
         margin: 0 240px 33px 48px;

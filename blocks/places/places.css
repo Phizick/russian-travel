@@ -7,130 +7,26 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-     margin: 0 48px 0 48px;     
+        margin: 0 48px 0 48px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .places {
-     margin: 0 24px 0 24px;
-     row-gap: 66px;
+        margin: 0 24px 0 24px;
+        row-gap: 66px;
     }
 }
 
 @media screen and (max-width: 650px) {
     .places {
-     margin: 0;
-     row-gap: 48px;
+        margin: 0;
+        row-gap: 48px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
-     max-width: 320px;
-     
+        max-width: 320px;
     }
-}
-   
-
-
-.places__head-container {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-column-gap: 40px;
-    
-    max-width: 984px;
-}
-
-
-@media screen and (max-width: 1030px) {
-    .places__head-container {
-column-gap: 32px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .places__head-container {
-column-gap: 28px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .places__head-container {
-        flex-direction: column;
-        row-gap: 32px;
-
-    }
-}
-
-.places__main-container {
-    display: flex;
-    flex-direction: row;
-    column-gap: 40px;
-    margin-top: 43px;
-}
-
-@media screen and (max-width: 1030px) {
-    .places__main-container {
-column-gap: 32px;
-margin-top: 53px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .places__main-container {
-column-gap: 28px;
-margin-top: 52px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .places__main-container {
-        flex-direction: column;
-column-gap: 28px;
-margin-top: 32px;
-    }
-}
-
-
-.places__nav-item {
-    flex-direction: column-reverse;
-    display: flex;
-
-    
-}
-.text_content{
-    flex-direction: column;
-}
-.place__title {
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 106%;
-    margin: 0 0 40px 0;
-    padding-top: 0;
-    margin-top: 0;
-    width: 460px;
-
-}
-.place__nav {
-    color: #aaaaaa;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding-top: 75px;
-    margin: 0;
-}
-.place__link {
-    margin: 12px 0 0 0;
-    line-height: 122%;
-    text-decoration-line: underline;
-    font-size: 18px;
-    font-weight: 400;
-    color: #ffffff;
-    transition: opacity 0.5s linear;
-    padding: 50px auto;  
-    
 }

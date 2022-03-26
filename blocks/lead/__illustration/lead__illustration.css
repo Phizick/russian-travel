@@ -16,12 +16,9 @@
     }
 }
 
-
-
 @media screen and (max-width: 322px) {
     .lead__illustration {
         margin-top: 25px;
         max-width: 100%;
-
     }
 }

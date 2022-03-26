@@ -6,6 +6,7 @@
     max-width: 1184px;
     background-position: center;
 }
+
 .cover__container::before {
     content: "";
     display: inline;
@@ -28,12 +29,14 @@
         min-height: 640px;
     }
 }
+
 @media screen and (max-width: 770px) {
     .cover__container {
         max-width: 768px;
         min-height: 480px;
     }
 }
+
 @media screen and (max-width: 322px) {
     .cover__container {
         max-width: 320px;

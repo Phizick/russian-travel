@@ -4,12 +4,14 @@
     
     padding-top: 0;
 }
+
 @media screen and (max-width: 1120px) {
     .photo__grid-item {
         max-width: 300px;
         min-height: 225px;
     }
 }
+
 @media screen and (max-width: 980px) {
     .photo__grid-item {
         min-width: 352px;
