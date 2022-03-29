@@ -1,4 +1,4 @@
-.places__nav-item {
+.place__nav-item {
     flex-direction: column-reverse;
     display: flex;    
 }
