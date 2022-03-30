@@ -1,18 +1,24 @@
 .lead__illustration {
-    width: 100%;
-    height: auto;  
-    position: relative;
-    margin-top: 31px; 
+    max-width: 984px;
+    max-height: 100%;  
+    margin: 0 auto;
+    padding-top: 32px;
 }
-
+.hog {
+    display: block;
+}
 @media screen and (max-width: 1030px) {
     .lead__illustration {
-        margin-top: 23px;
+        padding-top: 26px;              
+    }
+    .hog {
+        max-width: 928px; 
     }
 }
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 929px) {
     .lead__illustration {
-        margin-top: 23px;      
+        max-width: fit-content;              
     }
 }
 
@@ -21,4 +27,9 @@
         margin-top: 25px;
         max-width: 100%;
     }
+}
+
+.lead {
+    max-width: 984px;
+    margin: 0 auto;   
 }

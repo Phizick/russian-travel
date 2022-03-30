@@ -1,4 +1,10 @@
 .cover__link-cover {
     text-decoration: none;
     color: #ffffff;
+    position: relative;    
+    display: block;
+    width: 100%;
+    height: 100%;
+   
 }
+

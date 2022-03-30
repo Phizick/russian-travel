@@ -15,14 +15,13 @@
 @media screen and (max-width: 800px) {
     .place__main-container {
         column-gap: 28px;
-        margin-top: 52px;
+        
     }
 }
 
 @media screen and (max-width: 700px) {
     .place__main-container {
         flex-direction: column;
-        column-gap: 28px;
         margin-top: 32px;
     }
 }

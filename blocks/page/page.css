@@ -8,7 +8,7 @@
   font-family: Inter, Arial, sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .page {
       padding: 0;
   }

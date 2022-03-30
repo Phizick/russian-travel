@@ -1,15 +1,16 @@
-.places__title {
+.place__title {
     font-size: 72px;
     font-weight: 900;
     line-height: 106%;
+    font-style: normal;
     width: 460px;
     padding: 0;
     margin: 0;
-    white-space: pre-line;
+    
 }
 
 @media screen and (max-width: 1030px) {
-    .places__title {
+    .place__title {
         line-height: 100%;
         width: 440px;
         letter-spacing: 1.3px;
@@ -19,7 +20,6 @@
 @media screen and (max-width: 1018px) {
     .place__title {
         font-size: 60px;
-        line-height: 100%;
         width: 340px;
     }
 }
@@ -27,12 +27,10 @@
 @media screen and (max-width: 770px) {
     .place__title {
         font-size: 42px;
-        white-space: nowrap;
+        
         letter-spacing: 0.6px;
     }
-    .place__title:first-child {
-        white-space: pre-line;
-    }
+
 }
 
 @media screen and (max-width: 340px) {
@@ -41,6 +39,6 @@
         min-width: 288px;
         max-width: fit-content;
         margin-left: 16px;
-        white-space: nowrap;
+        
     }
 }

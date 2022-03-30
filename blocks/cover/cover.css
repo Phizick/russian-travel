@@ -1,9 +1,9 @@
-.cover {
+.cover4 {
     position: relative;
 }
 
 @media screen and (max-width: 540px) {
-    .cover {
+    .coverg {
         margin: 0;
     }
 }
