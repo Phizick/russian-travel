@@ -5,39 +5,28 @@
     font-style: normal;
     line-height: 163%;
     max-width: 69%;
-        
 }
 
-
-@media screen and (max-width: 1030px) {  
+@media screen and (max-width: 1030px) {
     .intro__main-text {
         max-width: 75%;
-       
     }
 }
-@media screen and (max-width: 770px) {  
+@media screen and (max-width: 770px) {
     .intro__main-text {
         max-width: 100%;
-       
     }
 }
 
-
-@media screen and (max-width: 750px) {  
+@media screen and (max-width: 750px) {
     .intro__main-text {
         margin-left: 16px;
         margin-right: 16px;
-       
     }
 }
 
-
-
-
-
-
-@media screen and (max-width: 322px) {  
+@media screen and (max-width: 322px) {
     .intro__main-text {
-       margin-top: 0;
-}
+        margin-top: 0;
+    }
 }

@@ -4,8 +4,7 @@
     line-height: 100%;
     font-style: normal;
     max-width: 43.125rem;
-    font-size: 54px;
-    
+    font-size: 54px;    
 }
 
 @media screen and (max-width: 750px) {
@@ -19,6 +18,7 @@
      font-size: 32px;
     }
 }
+
 @media screen and (max-width: 322px) {
     .intro__title {
         max-width: 75%;
@@ -27,35 +27,3 @@
     }
 }
 
-.intro {
-    max-width: 690px;
-     
-}
-
-@media screen and (max-width: 1030px) {
-.intro {
-    max-width: 930px;
-}
-
-}
-@media screen and (max-width: 770px) {
-    .intro {
-        max-width: 768px;
-    }
-    
-    }
-
-    @media screen and (max-width: 757px) {
-        .intro {
-            max-width: 540px;
-        }
-        
-        }
-    
-
-@media screen and (max-width: 1000px) {
-    .intro {
-        max-width: 720px;
-    }
-    
-    }

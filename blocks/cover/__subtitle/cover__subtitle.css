@@ -5,15 +5,14 @@
     line-height: 122%;
     font-size: 1.125rem;    
     z-index: 1;
-    padding-top: 36px;
-    
+    padding-top: 32px;    
 }
 
 
 @media screen and (max-width: 535px) {
     .cover__subtitle {
         font-size: 18px;
-        padding: 18px 0 0 0;
+      
     }
 }
 

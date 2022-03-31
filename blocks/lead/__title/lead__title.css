@@ -4,21 +4,20 @@
     text-align: center;
     max-width: 720px;
     margin: 0 auto;
-    padding-top: 46px;
+    padding-top: 56px;
     line-height: 103%;
     color: #ffffff;
- 
 }
 
 @media screen and (max-width: 1030px) {
     .lead__title {
-        padding-top: 38px;
+        padding-top: 48px;
     }
 }
 
 @media screen and (max-width: 770px) {
     .lead__title {
-        margin: 0 24px 0 24px;
+        margin: 48px 24px 0 24px;
     }
 }
 
@@ -37,14 +36,13 @@
 }
 
 @media screen and (max-width: 450px) {
-    .lead__title {       
+    .lead__title {
         line-height: 110%;
-        
     }
 }
 
 @media screen and (max-width: 321px) {
-    .lead__title {       
-       margin-top: 40px;
-}
+    .lead__title {
+        margin-top: 40px;
+    }
 }
