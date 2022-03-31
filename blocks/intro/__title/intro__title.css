@@ -5,7 +5,7 @@
     font-style: normal;
     max-width: 43.125rem;
     font-size: 54px;
-    letter-spacing: 0.6px;
+    
 }
 
 @media screen and (max-width: 750px) {
@@ -28,8 +28,8 @@
 }
 
 .intro {
-    max-width: 984px;
-    margin: 0 auto;  
+    max-width: 690px;
+     
 }
 
 @media screen and (max-width: 1030px) {

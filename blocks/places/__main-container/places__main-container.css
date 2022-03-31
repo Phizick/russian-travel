@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     column-gap: 40px;
-    margin-top: 43px;
+    margin-top: 48px;
 }
 
 @media screen and (max-width: 1030px) {
@@ -14,10 +14,15 @@
 
 @media screen and (max-width: 800px) {
     .place__main-container {
-        column-gap: 28px;
-        
+        column-gap: 28px;        
     }
 }
+@media screen and (max-width: 770px) {
+    .place__main-container {
+        margin-top: 46px;       
+    }
+}
+
 
 @media screen and (max-width: 700px) {
     .place__main-container {

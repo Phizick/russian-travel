@@ -20,6 +20,7 @@
 @media screen and (max-width: 650px) {
     .place__main-text {
         margin: 0 16px 25px 16px;
+        line-height: 26px;
     }
 
     .place__main-text:last-child {

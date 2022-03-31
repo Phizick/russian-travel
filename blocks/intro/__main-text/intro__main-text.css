@@ -11,10 +11,17 @@
 
 @media screen and (max-width: 1030px) {  
     .intro__main-text {
+        max-width: 75%;
+       
+    }
+}
+@media screen and (max-width: 770px) {  
+    .intro__main-text {
         max-width: 100%;
        
     }
 }
+
 
 @media screen and (max-width: 750px) {  
     .intro__main-text {

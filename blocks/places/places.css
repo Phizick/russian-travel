@@ -14,19 +14,25 @@
 @media screen and (max-width: 800px) {
     .places {
         margin: 0 24px 0 24px;
-        row-gap: 66px;
+        row-gap: 70px;
     }
 }
 
 @media screen and (max-width: 650px) {
     .places {
         margin: 0;
-        row-gap: 48px;
+        row-gap: 50px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .places {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .place__text-content {
         max-width: 320px;
     }
 }
