@@ -11,25 +11,26 @@
 
 @media screen and (max-width: 1030px) {  
     .intro__main-text {
-        max-width: 75%;
+        max-width: 100%;
+       
     }
 }
 
-
-
-
-@media screen and (max-width: 752px) {  
+@media screen and (max-width: 750px) {  
     .intro__main-text {
-        margin: 0 16px 33px 16px;
-        max-width: 520px;
-        
+        margin-left: 16px;
+        margin-right: 16px;
+       
     }
 }
+
+
+
+
+
 
 @media screen and (max-width: 322px) {  
     .intro__main-text {
-       
-        padding-top: 0;
-        line-height: 163%;
-    }
+       margin-top: 0;
+}
 }

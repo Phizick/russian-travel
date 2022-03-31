@@ -6,7 +6,7 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 718px) {
+@media screen and (max-width: 767px) {
     .footer__nav-item {
         padding-bottom: 32px;
         font-size: 24px;

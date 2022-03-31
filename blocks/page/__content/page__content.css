@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 621px) {
     .page__content {
         grid-gap: 64px;
     }

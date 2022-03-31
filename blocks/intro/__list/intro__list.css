@@ -9,15 +9,11 @@
 }
 
 
-@media screen and (max-width: 770px) {
-    .intro__list {
-        margin: 0 240px 0 24px;
-    }
-}
 
-@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 750px) {
     .intro__list {
-        margin: 0 16px 0 16px;        
+        margin-left: 16px;       
     }
 }
 
