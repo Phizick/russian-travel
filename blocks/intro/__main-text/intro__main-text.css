@@ -5,6 +5,8 @@
     font-style: normal;
     line-height: 163%;
     max-width: 69%;
+    
+    margin-right: 16px;
 }
 
 @media screen and (max-width: 1030px) {
@@ -12,16 +14,16 @@
         max-width: 75%;
     }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1023px) {
     .intro__main-text {
-        max-width: 100%;
+        margin-left: 16px;
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 771px) {
     .intro__main-text {
-        margin-left: 16px;
-        margin-right: 16px;
+        max-width: 95%;
+        
     }
 }
 

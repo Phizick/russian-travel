@@ -1,39 +1,5 @@
-.lead__illustration-item {
-    display: block;
+.lead__illustration-item {    
+    max-width: 100%;
+   
 }
 
-@media screen and (max-width: 1030px) {
-    .lead__illustration-item {
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 929px) {
-    .lead__illustration-item {
-        max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .lead__illustration-item {
-        max-width: 620px;
-    }
-}
-
-@media screen and (max-width: 621px) {
-    .lead__illustration-item {
-        max-width: 540px;
-    }
-}
-
-@media screen and (max-width: 541px) {
-    .lead__illustration-item {
-        max-width: 440px;
-    }
-}
-
-@media screen and (max-width: 441px) {
-    .lead__illustration-item {
-        max-width: 320px;
-    }
-}

@@ -3,46 +3,29 @@
     font-weight: 900;
     text-align: center;
     max-width: 720px;
-    margin: 0 auto;
-    padding-top: 56px;
+    margin: 0 auto;    
     line-height: 103%;
     color: #ffffff;
 }
 
-@media screen and (max-width: 1030px) {
+
+@media screen and (max-width: 767px) {
     .lead__title {
-        padding-top: 48px;
+        font-size: 70px;
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 540px) {
     .lead__title {
-        margin: 48px 24px 0 24px;
+        font-size: 50px;
     }
 }
 
-@media screen and (max-width: 694px) {
+@media screen and (max-width: 400px) {
     .lead__title {
         font-size: 40px;
-        margin: 48px 16px 16px 16px;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 694px) {
-    .lead__title {
-        margin: 10px auto;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .lead__title {
+        max-width: 288px;
         line-height: 110%;
     }
 }
 
-@media screen and (max-width: 321px) {
-    .lead__title {
-        margin-top: 40px;
-    }
-}
