@@ -5,15 +5,12 @@
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 150%;
-    max-width: 43.125rem;
-    
-    
+    max-width: 43.125rem;   
 }
 
 @media screen and (max-width: 1023px) {
     .intro__list {
         margin-left: 16px;
-    }
-    
+    }    
 }
 

@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .place__nav {
         max-width: fit-content;
         margin-left: 16px;

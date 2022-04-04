@@ -1,7 +1,6 @@
 .photo__grid-item {
     max-width: 100%;
-    max-height: 100%;
-    
+    max-height: 100%;    
     padding-top: 0;
 }
 
@@ -28,6 +27,6 @@
 @media screen and (max-width: 400px) {
     .photo__grid-item {
         max-width: 288px;
-              min-height: 216px;
+        min-height: 216px;
     }
 }

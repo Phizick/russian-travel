@@ -1,14 +1,13 @@
 .cover__link-cover {
     text-decoration: none;
     color: #ffffff;
-    position: relative;    
+    position: relative;
     display: block;
     width: 100%;
     height: 100%;
-    transition: opacity 0.5s linear; 
-   }
-
-   .cover__link-cover:hover {
-    opacity: 0.8;
+    transition: opacity 0.5s linear;
 }
 
+.cover__link-cover:hover {
+    opacity: 0.8;
+}

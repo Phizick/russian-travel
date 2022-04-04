@@ -9,13 +9,13 @@
 
 @media screen and (max-width: 1023px) {
     .intro__title {
-     margin: 5px 0 40px 16px;
+        margin: 5px 0 40px 16px;
     }
 }
 
 @media screen and (max-width: 621px) {
     .intro__title {
-     font-size: 32px;
+        font-size: 32px;
     }
 }
 
@@ -23,7 +23,7 @@
     .intro__title {
         max-width: 75%;
         margin-bottom: 35px;
+        margin-top: 0;
         line-height: 109%;
     }
 }
-

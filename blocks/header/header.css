@@ -1,7 +1,5 @@
 .header {
     margin: 0 auto;
-}
-.header {
     max-width: 1184px;
     max-height: 52px;
     display: flex;
@@ -24,9 +22,5 @@
     .header {
         margin: 16px 16px 0 16px;
         max-height: 42px;
-            
-         
-
-    }
-    
+    }    
 }
