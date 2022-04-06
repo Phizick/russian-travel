@@ -12,9 +12,9 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1020px) {
     .place__head-container {
-        column-gap: 28px;
+        column-gap: 38px;
     }
 }
 

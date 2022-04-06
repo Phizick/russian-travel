@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1020px) {
     .place__main-container {
         column-gap: 28px;
     }

@@ -1,5 +1,5 @@
 .place__main-text {
-    margin: 0 0 27px 0;
+    margin: 0 0 26px 0;
     font-size: 18px;
     line-height: 163%;
     font-weight: 400;
@@ -8,6 +8,12 @@
 
 .place__main-text:last-child {
     margin: 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .place__main-text {
+        margin-bottom: 27px;
+    }
 }
 
 @media screen and (max-width: 800px) {

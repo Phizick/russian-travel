@@ -1,13 +1,35 @@
-.cover__link-cover {
+.coverc__link-cover {
     text-decoration: none;
     color: #ffffff;
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
-    transition: opacity 0.5s linear;
 }
 
-.cover__link-cover:hover {
-    opacity: 0.8;
+.cover__link-cover {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    max-height: 740px;
+}
+
+@media screen and (max-width: 1025px) {
+    .cover__link-cover {
+        max-height: 640px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cover__link-cover {
+        max-height: 480px;
+    }
+}
+
+@media screen and (max-width: 352px) {
+    .cover__link-cover {
+        max-height: 200px;
+    }
 }
